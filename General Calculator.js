@@ -1,22 +1,22 @@
 var firstNumber = prompt("Enter Your first Number: ");
+var symbol = prompt("Enter An Operational symbol: ");
 var secondNumber = prompt("Enter Your Second Number: ");
-var symbol = prompt("Enter An Operation Symbol: ");
-var result =
+var result = 0
 
-if (symbol === "+")
+if (symbol = "+")
 {
-    result === firstNumber + secondNumber;
+    result = Number(firstNumber) + Number(secondNumber);
 }
-else if(symbol === "-")
+else if(symbol = "-")
 {
-    result === firstNumber - secondNumber;
+    result = Number(firstNumber) - Number(secondNumber);
 }
-else if(symbol === "*")
+else if(symbol = "*")
 {
-    result === firstNumber * secondNumber;
+    result = Number(firstNumber) * Number(secondNumber);
 }
-else if(symbol ==="/")
+else if(symbol = "/")
 {
-    result === firstNumber / secondNumber;
+    result = Number(firstNumber) / Number(secondNumber);
 }
 alert("The answer is: " + result);
