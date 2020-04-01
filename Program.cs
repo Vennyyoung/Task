@@ -7,8 +7,8 @@ namespace volumeCalculator
         static void Main(string[] args)
         {
             
-        //This program is meant to find the volume of 5 different solid shapesor containers
-        //By using the standard formulas for each of them
+//This program is meant to find the volume of 5 different solid shapes or containers
+//By using the standard formulas for each of them
             
             string[] shapes = new string[5]{"cylinder","cone","sphere","cuboid","cube"};
 
@@ -29,7 +29,8 @@ namespace volumeCalculator
             
             Console.WriteLine("what is the shape of your container: "); 
 
-            // volume of cylinder = pie(3.14) * radius * radius * height
+  // volume of cylinder = pie(3.14) * radius * radius * height
+            
             if(shapes[0] == "cylinder")
             {
             Console.WriteLine("what is the radius of the cylinder: ");
@@ -44,7 +45,7 @@ namespace volumeCalculator
             }
 
 
-            //volume of cone = 1/3 * pie(3.14) * radius * radius * height
+ //volume of cone = 1/3 * pie(3.14) * radius * radius * height
 
             else if(shapes[1] == "cone")
             {
@@ -59,7 +60,7 @@ namespace volumeCalculator
             }
 
 
-            //volume of sphere = 4/3 * pie(3.14) * radius * radius * radius
+//volume of sphere = 4/3 * pie(3.14) * radius * radius * radius
             
             else if(shapes[2] == "sphere")
             {
